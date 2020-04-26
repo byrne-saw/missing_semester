@@ -1,0 +1,33 @@
+Lecture 1: Course Overview + The Shell
+missing.csail.mit.edu/2020/course-shell/
+
+
+Environment Variable: things set whenever you start the shell, *path*
+
+$echo $PATH - shows all the paths on the machine that the shell will search
+for programs.
+
+A list that is : seperated. When ever you type the name of a program it will
+look for a match until it finds 
+
+You can find out which path by typing $which XXXX
+Absolute paths are paths that fully determine the location of a file
+
+Relative paths are relative to where you currently are - $pwd - print working
+directory
+
+. means current directory
+.. means parent directory
+
+In general, when you run a program, it's going to run from the current
+directory you are in. 
+
+$ls - list the files in current directory
+
+flags and options: things that usually start with a - 
+	Anything that takes a value is an option, if it doesn't take a value
+it's a flag
+$--help (most programs implement this)
+
+$ls -l :use a long listing format
+	gives a lot more infomation; 
